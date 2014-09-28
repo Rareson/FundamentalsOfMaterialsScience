@@ -1,0 +1,134 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4290,        125]
+NotebookOptionsPosition[      3823,        105]
+NotebookOutlinePosition[      4195,        121]
+CellTagsIndexPosition[      4152,        118]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["L", "m"], "=", 
+   RowBox[{"\[CapitalDelta]H", "/", "V"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SuperscriptBox["\[CapitalDelta]G", "*"], "=", 
+  RowBox[{"16", " ", "\[Pi]", " ", 
+   RowBox[{"\[Sigma]", "^", "3"}], " ", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["T", "m"], "^", "2"}], "/", 
+    RowBox[{"(", 
+     RowBox[{"3", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["L", "m"], " ", "\[CapitalDelta]T"}], ")"}], "^", 
+       "2"}]}], ")"}]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Nn", "=", 
+  RowBox[{"exp", "[", 
+   RowBox[{
+    RowBox[{"-", 
+     SuperscriptBox["\[CapitalDelta]G", "*"]}], "/", 
+    RowBox[{"(", 
+     RowBox[{"k", " ", "T"}], ")"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.6208697914116673`*^9, 3.6208698503976517`*^9}, {
+   3.620869914276105*^9, 3.6208699205395603`*^9}, {3.6208699804561834`*^9, 
+   3.6208700993007617`*^9}, 3.6208701438314257`*^9, {3.6208702113734865`*^9, 
+   3.62087021177277*^9}, 3.6208703266625333`*^9, {3.620870388889795*^9, 
+   3.6208704038764725`*^9}, {3.6208704759367323`*^9, 3.620870537998891*^9}, {
+   3.620870673261136*^9, 3.6208707328535533`*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"16", " ", "\[Pi]", " ", 
+   SuperscriptBox["V", "2"], " ", 
+   SuperscriptBox["\[Sigma]", "3"], " ", 
+   SubsuperscriptBox["T", "m", "2"]}], 
+  RowBox[{"3", " ", 
+   SuperscriptBox["\[CapitalDelta]H", "2"], " ", 
+   SuperscriptBox["\[CapitalDelta]T", "2"]}]]], "Output",
+ CellChangeTimes->{
+  3.620870101271143*^9, 3.6208701833135195`*^9, 3.620870219671392*^9, 
+   3.6208703279864593`*^9, 3.6208703595018864`*^9, 3.620870408432701*^9, {
+   3.6208705124667377`*^9, 3.620870540024334*^9}, 3.6208705702938704`*^9, 
+   3.620870632207925*^9, {3.6208707120737667`*^9, 3.620870734957036*^9}}],
+
+Cell[BoxData[
+ RowBox[{"exp", "[", 
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{"16", " ", "\[Pi]", " ", 
+     SuperscriptBox["V", "2"], " ", 
+     SuperscriptBox["\[Sigma]", "3"], " ", 
+     SubsuperscriptBox["T", "m", "2"]}], 
+    RowBox[{"3", " ", "k", " ", "T", " ", 
+     SuperscriptBox["\[CapitalDelta]H", "2"], " ", 
+     SuperscriptBox["\[CapitalDelta]T", "2"]}]]}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.620870101271143*^9, 3.6208701833135195`*^9, 3.620870219671392*^9, 
+   3.6208703279864593`*^9, 3.6208703595018864`*^9, 3.620870408432701*^9, {
+   3.6208705124667377`*^9, 3.620870540024334*^9}, 3.6208705702938704`*^9, 
+   3.620870632207925*^9, {3.6208707120737667`*^9, 3.620870734959036*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "This is a symbolic calculation of the second problem. \nNn represents part \
+of the original expression of ",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["N", "\[CenterDot]"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", which requires symbolic calculations.\nAnd the other part is numeric \
+approximation, which I\[CloseCurlyQuote]ve omitted deliberately.\nAs you can \
+see, the result is quite satisfactory."
+}], "Text",
+ CellChangeTimes->{{3.62087063630284*^9, 3.6208706618680506`*^9}, {
+  3.6208707393391833`*^9, 3.6208708518682375`*^9}}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.620870618564217*^9, 3.6208706289876337`*^9}}]
+},
+WindowSize->{1920, 978},
+WindowMargins->{{-9, Automatic}, {Automatic, -9}},
+Magnification:>1.9 Inherited,
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1200, 31, 132, "Input"],
+Cell[1783, 55, 624, 13, 84, "Output"],
+Cell[2410, 70, 707, 15, 84, "Output"]
+}, Open  ]],
+Cell[3132, 88, 571, 12, 182, "Text"],
+Cell[3706, 102, 113, 1, 95, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
